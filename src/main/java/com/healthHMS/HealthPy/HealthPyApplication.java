@@ -1,0 +1,13 @@
+package com.healthHMS.HealthPy;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HealthPyApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HealthPyApplication.class, args);
+		System.out.println("successful message");
+	}
+}
